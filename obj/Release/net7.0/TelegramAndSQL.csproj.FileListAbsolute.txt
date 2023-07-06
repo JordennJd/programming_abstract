@@ -1,0 +1,5 @@
+/Users/danilalatyrev/Desktop/ForProjects/TelegramAndSQL/TelegramAndSQL/obj/Release/net7.0/TelegramAndSQL.csproj.AssemblyReference.cache
+/Users/danilalatyrev/Desktop/ForProjects/TelegramAndSQL/TelegramAndSQL/obj/Release/net7.0/TelegramAndSQL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danilalatyrev/Desktop/ForProjects/TelegramAndSQL/TelegramAndSQL/obj/Release/net7.0/TelegramAndSQL.AssemblyInfoInputs.cache
+/Users/danilalatyrev/Desktop/ForProjects/TelegramAndSQL/TelegramAndSQL/obj/Release/net7.0/TelegramAndSQL.AssemblyInfo.cs
+/Users/danilalatyrev/Desktop/ForProjects/TelegramAndSQL/TelegramAndSQL/obj/Release/net7.0/TelegramAndSQL.csproj.CoreCompileInputs.cache
