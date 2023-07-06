@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danilalatyrev/ForProjects/persacc/persacc/persacc.csproj": {}
+    "/Users/danilalatyrev/Desktop/ForProjects/programming_abstract/persacc.csproj": {}
   },
   "projects": {
-    "/Users/danilalatyrev/ForProjects/persacc/persacc/persacc.csproj": {
+    "/Users/danilalatyrev/Desktop/ForProjects/programming_abstract/persacc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danilalatyrev/ForProjects/persacc/persacc/persacc.csproj",
+        "projectUniqueName": "/Users/danilalatyrev/Desktop/ForProjects/programming_abstract/persacc.csproj",
         "projectName": "persacc",
-        "projectPath": "/Users/danilalatyrev/ForProjects/persacc/persacc/persacc.csproj",
+        "projectPath": "/Users/danilalatyrev/Desktop/ForProjects/programming_abstract/persacc.csproj",
         "packagesPath": "/Users/danilalatyrev/.nuget/packages/",
-        "outputPath": "/Users/danilalatyrev/ForProjects/persacc/persacc/obj/",
+        "outputPath": "/Users/danilalatyrev/Desktop/ForProjects/programming_abstract/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/danilalatyrev/.nuget/NuGet/NuGet.Config"
