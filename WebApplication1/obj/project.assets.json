@@ -6091,11 +6091,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/danilalatyrev/Desktop/ForProjects/WebApplication1/WebApplication1/WebApplication1.csproj",
+      "projectUniqueName": "/Users/danilalatyrev/Desktop/ForProjects/programming_abstract/WebApplication1/WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "/Users/danilalatyrev/Desktop/ForProjects/WebApplication1/WebApplication1/WebApplication1.csproj",
+      "projectPath": "/Users/danilalatyrev/Desktop/ForProjects/programming_abstract/WebApplication1/WebApplication1.csproj",
       "packagesPath": "/Users/danilalatyrev/.nuget/packages/",
-      "outputPath": "/Users/danilalatyrev/Desktop/ForProjects/WebApplication1/WebApplication1/obj/",
+      "outputPath": "/Users/danilalatyrev/Desktop/ForProjects/programming_abstract/WebApplication1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/danilalatyrev/.nuget/NuGet/NuGet.Config"

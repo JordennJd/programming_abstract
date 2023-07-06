@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v1/mVu5Bf/eTMOhF72Qc49N32vKpMyY0jxf2OD85o+cW8d+uLKyqeTn2Hp6vB7sf68nxcyQkZoIg4Ku4s1oxeg==",
+  "dgSpecHash": "a1gleNippEeDSRBPZxW0QOgthfdngENCAuVcUYJXKHNWK/sGG/dBB0PDB0n/VbuCtL+jfVwU3+vb9PuUgAIV2A==",
   "success": true,
-  "projectFilePath": "/Users/danilalatyrev/Desktop/ForProjects/WebApplication1/WebApplication1/WebApplication1.csproj",
+  "projectFilePath": "/Users/danilalatyrev/Desktop/ForProjects/programming_abstract/WebApplication1/WebApplication1.csproj",
   "expectedPackageFiles": [
     "/Users/danilalatyrev/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/danilalatyrev/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
