@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Главная";
+}
+<head>
+    <link rel="stylesheet" href="~/css/style.css" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/cshtml; charset=utf-8">
+</head>
+
+<div class="card col-md-12">
+    <header>
+        <nav class="nav">
+            <a href="#">Чаты</a>
+            <a href="#">Форумы</a>
+            <a href="#">Научные кадры</a>
+            <a href="#">Мероприятия</a>
+            <a href="#">Объявления</a>
+        </nav>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <nav>
+                <a href="" class="newuser">Выйти(Не реализванно)</a>
+            </nav>
+        }
+        else
+        {
+            <nav>
+                <a href="~/Account/AuthorizateUser" class="user">Войти</a>
+                <a href="~/Account/RegistrationUser" class="newuser">Зарегистрироваться</a>
+            </nav>
+        }
+
+    </header>
+    <main>
+        <div class="all">
+            <h1>Здесь будет личный кабинет научного кадра</h1>
+        </div>
+        @if (User.Identity.IsAuthenticated)
+        {
+            @foreach (var Indentiti in User.Identities)
+            {
+                @foreach (var clame in Indentiti.Claims)
+                {
+                    <div>
+                        <h2>Пока что тут только его Email</h2>
+                        <p>@clame.Value</p>
+                    </div>
+                }
+            }
+        }
+        else
+        {
+            <div>
+                <h2></h2>
+                <p>Войдите или зарегистрируйтесь</p>
+            </div>
+        }
+    </main>
+</div>

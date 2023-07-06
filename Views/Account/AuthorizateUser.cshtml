@@ -1,0 +1,30 @@
+﻿@model PersAcc.Domain.ViewModels.Account.LoginViewModel
+@{
+    ViewData["Title"] = "Авторизация";
+}
+<head>
+    <link rel="stylesheet" href="~/css/style.css" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/cshtml; charset=utf-8">
+    <title>Авторизация</title>
+</head>
+<div id="reg">
+    <div class="card col-md-12">
+        <h1>Вход в аккаунт</h1>
+        <form asp-action="AuthorizateUser" asp-controller="Account" method="post">
+            <div asp-validation-summary="All" style=" font-size: 0.789em; font-family: Lucida Sans; color: red " class="text-danger text-center"></div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="text" placeholder="Введите ваш Email" asp-for="Email" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" placeholder="Введите пароль" asp-for="Password" class="form-control" />
+            </div>
+            <div>
+                <button class="btn btn-primary float-right" type="submit">Войти</button>
+                <a href="~/Account/RegistrationUser" class="button">Зарегистрироваться</a>
+            </div>
+        </form>
+        
+    </div>
+</div>

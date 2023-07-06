@@ -1,0 +1,42 @@
+﻿@model PersAcc.Domain.ViewModels.Account.RegisterViewModel
+@{
+    ViewData["Title"] = "Регистрация";
+}
+<head>
+    <link rel="stylesheet" href="~/css/style.css" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/cshtml; charset=utf-8">
+    <title>Регистрация</title>
+</head>
+<div id="reg">
+    <div class="card col-md-12">
+        <h1>Регистрация</h1>
+        <form asp-action="RegistrationUser" asp-controller="Account" method="post">
+            <div asp-validation-summary="All" style=" font-size: 0.789em; font-family: Lucida Sans; color: red " class="text-danger text-center"></div>
+            <div class="mb-3">
+                <label class="form-label">FirstName</label>
+                <input type="text" placeholder="Введите имя" asp-for="FirstName" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">LastName</label>
+                <input type="text" placeholder="Введите фамилию" asp-for="LastName" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" placeholder="Введите пароль" asp-for="Password" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Password Confrim</label>
+                <input type="password" placeholder="Введите подтверждение пароля" asp-for="PasswordConfrim" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="text" placeholder="Введите ваш Email" asp-for="Email" class="form-control" />
+            </div>
+            <div>
+                <button class="btn btn-primary float-right" type="submit">Зарегистрироваться</button>
+                <a href="~/Account/AuthorizateUser" class="button">Войти</a>
+            </div>
+        </form>
+        
+    </div>
+</div>
