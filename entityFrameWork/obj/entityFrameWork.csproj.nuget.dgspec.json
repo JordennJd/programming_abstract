@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danilalatyrev/RiderProjects/entityFrameWork/entityFrameWork/entityFrameWork.csproj": {}
+    "/Users/danilalatyrev/Desktop/ForProjects/programming_abstract/entityFrameWork/entityFrameWork.csproj": {}
   },
   "projects": {
-    "/Users/danilalatyrev/RiderProjects/entityFrameWork/entityFrameWork/entityFrameWork.csproj": {
+    "/Users/danilalatyrev/Desktop/ForProjects/programming_abstract/entityFrameWork/entityFrameWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danilalatyrev/RiderProjects/entityFrameWork/entityFrameWork/entityFrameWork.csproj",
+        "projectUniqueName": "/Users/danilalatyrev/Desktop/ForProjects/programming_abstract/entityFrameWork/entityFrameWork.csproj",
         "projectName": "entityFrameWork",
-        "projectPath": "/Users/danilalatyrev/RiderProjects/entityFrameWork/entityFrameWork/entityFrameWork.csproj",
+        "projectPath": "/Users/danilalatyrev/Desktop/ForProjects/programming_abstract/entityFrameWork/entityFrameWork.csproj",
         "packagesPath": "/Users/danilalatyrev/.nuget/packages/",
-        "outputPath": "/Users/danilalatyrev/RiderProjects/entityFrameWork/entityFrameWork/obj/",
+        "outputPath": "/Users/danilalatyrev/Desktop/ForProjects/programming_abstract/entityFrameWork/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/danilalatyrev/.nuget/NuGet/NuGet.Config"
